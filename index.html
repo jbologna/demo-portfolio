@@ -1,19 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My Web Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="main-card">
-        <h1>Welcome to My Site</h1>
-        <p>Built entirely in the browser!</p>
-        <button id="magicBtn">Click for Magic</button>
-        <hr>
-        <p><a href="./js-test.html" >JavaScript Test Page</a></p>
-    </div>
-        <script src="script.js"></script>
-    </body>
+  <main class="container">
+    <header class="hero">
+      <p class="label">Portfolio</p>
+      <h1>My Projects</h1>
+      <p class="subtitle">A collection of HTML, CSS, and JavaScript projects.</p>
+    </header>
+
+    <ul class="project-list">
+      <li>
+        <a href="./projects/project-1.html" class="project-card">
+          <span class="project-number">01</span>
+          <span class="project-info">
+            <span class="project-title">Project One</span>
+            <span class="project-desc">Description of what this project does.</span>
+          </span>
+          <span class="arrow">→</span>
+        </a>
+      </li>
+      <li>
+        <a href="./projects/project-2.html" class="project-card">
+          <span class="project-number">02</span>
+          <span class="project-info">
+            <span class="project-title">Project Two</span>
+            <span class="project-desc">Description of what this project does.</span>
+          </span>
+          <span class="arrow">→</span>
+        </a>
+      </li>
+    </ul>
+  </main>
 </body>
 </html>
