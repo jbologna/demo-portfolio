@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rocket Car</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    #sketch-container canvas {
+      display: block;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header class="project-header">
+      <a href="../index.html" class="back-btn">← Back</a>
+      <h1>Rocket Car</h1>
+    </header>
+
+    <div class="demo-area" style="padding: 1rem;">
+      <div id="sketch-container"></div>
+    </div>
+
+    <p style="margin-top: 1rem; font-size: 13px; color: var(--muted);">
+      The rocket car should move forward and back while shifting colors.
+    </p>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.min.js"></script>
+  <script src="rocket-car.js"></script>
+</body>
+</html>
