@@ -1,4 +1,4 @@
-let images = ["img1.jpeg", "img2.jpeg", "img3.jpeg"];
+let images = ["img1.jpg", "img2.jpg", "img3.jpg"];
 let currentImageIndex = 0;
 let imgElement;
 
