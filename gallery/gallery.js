@@ -11,6 +11,7 @@ function setup() {
   button.mousePressed(changeImage);
 }
 
+
 function changeImage() {
   currentImageIndex = currentImageIndex + 1;
 
